@@ -80,7 +80,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-  if (cardNumber === undefined){
+  if (cardNumber === NaN){
     return "Sorry, we don't have a credit card on file for you."
   } else {
     const total1 = total()
